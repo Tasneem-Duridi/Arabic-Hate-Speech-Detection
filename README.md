@@ -36,11 +36,13 @@ This project uses the following publicly available datasets for Arabic hate spee
 6. **Evaluation**  
    - Evaluate model performance on the test set using metrics like accuracy, precision, recall, and F1-score.
 
-7. **Hyperparameter optimization**  
+7. **Output Classification**  
+   - The models classify input text as either **Hate Speech** or **Non-Hate Speech**.
+
+8. **Hyperparameter optimization**  
    - The models apply Grid search and Bayesian optimization.
     
-8. **Output Classification**  
-   - The models classify input text as either **Hate Speech** or **Non-Hate Speech**.
+
 
 <p align="center">
   <img src="Implementation steps.png" alt="Model Architecture" width="600">
