@@ -14,5 +14,34 @@ This project uses the following publicly available datasets for Arabic hate spee
 3. **[LAHS Dataset](https://www.kaggle.com/datasets/ziedzen/levantine-arabic-hate-speech-detection-corpus?select=Arabic_Tweets_dataset.csv)**  
    The Levantine Arabic Hate Speech (LAHS) detection corpus, consisting of annotated tweets written in Levantine Arabic.
 
+## **Pipeline**
 
+1. **Dataset Collection**  
+   The datasets are downloaded and stored locally in a directory named `datasets`.
 
+2. **Text Pre-processing**  
+   - Clean Arabic text by removing URLs, emojis, and special symbols.
+   - Normalize the text to handle variations in spelling and diacritics.
+   - Tokenize text into sequences suitable for BERT models.
+
+3. **Data Partitioning**  
+   - Split the data into **80% for training** and **20% for testing**.
+
+4. **Hyperparameter Tuning**  
+   - Fine-tune key hyperparameters such as batch size, learning rate, and weight decay.
+
+5. **Model Training**  
+   - Train various Arabic BERT-based models, including MARBERT, QARiB, and AraBERT, using the training set.
+
+6. **Evaluation**  
+   - Evaluate model performance on the test set using metrics like accuracy, precision, recall, and F1-score.
+
+7. **Hyperparameter optimization**  
+   - The models apply Grid search and Bayesian optimization.
+    
+8. **Output Classification**  
+   - The models classify input text as either **Hate Speech** or **Non-Hate Speech**.
+
+<p align="center">
+  <img src="Implementation steps.png" alt="Model Architecture" width="600">
+</p>
