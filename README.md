@@ -1,2 +1,18 @@
 # Arabic-Hate-Speech-Detection
 This study Works on Arabic hate speech detection using BERT-based Transformers, including MARBERT, BERT-multilingual, AraBERTv0.2-Twitter, CAMeLBERT, QARiB, and SaudiBERT, evaluated on OSACT, LAHS, and arHate datasets. 
+
+## 📚 Datasets
+
+This project uses the following publicly available datasets for Arabic hate speech detection:
+
+1. **[arHate Dataset](https://github.com/ramzi-kh/arHateDetector/tree/main/Datasets)**  
+   A dataset for Arabic hate speech detection, sourced from tweets and annotated for hate speech and offensive language.
+
+2. **[OSACT5 Dataset](https://osact5-lrec.github.io/)**  
+   A dataset provided by the OSACT-5 shared task, focusing on hate speech and offensive language detection in Arabic.
+
+3. **[LAHS Dataset](https://www.kaggle.com/datasets/ziedzen/levantine-arabic-hate-speech-detection-corpus?select=Arabic_Tweets_dataset.csv)**  
+   The Levantine Arabic Hate Speech (LAHS) detection corpus, consisting of annotated tweets written in Levantine Arabic.
+
+
+
